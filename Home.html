@@ -12,8 +12,8 @@
             theme: {
                 extend: {
                     colors: {
-                        darkbg: '#3b3b3b', /* Warna background utama yang gelap */
-                        cardbg: '#8a8a8a', /* Warna kotak navbar & about me */
+                        darkbg: '#1b1b1b', /* Warna background utama yang gelap */
+                        cardbg: '#303030', /* Warna kotak navbar & about me */
                         switchbg: '#5a5a5a' /* Warna background menu nav */
                     }
                 }
@@ -32,19 +32,19 @@
         <nav class="bg-cardbg rounded-full p-2 flex justify-between items-center mb-10 shadow-lg">
             
             <div class="flex items-center gap-4 pl-2">
-                <div class="bg-red-300 text-black font-bold text-lg rounded-full w-12 h-12 flex items-center justify-center shadow-inner">
+                <div class="bg-[#1b1b1b] text-[#ededed] font-bold text-lg rounded-full w-12 h-12 flex items-center justify-center shadow-inner">
                     AE
                 </div>
-                <span class="font-semibold tracking-wider text-black">ALIFIO EREN ATMAJA</span>
+                <span class="font-semibold tracking-wider text-[#ededed]">ALIFIO EREN ATMAJA</span>
             </div>
 
-            <div class="bg-switchbg rounded-full p-1 flex relative items-center shadow-inner mr-2">
+            <div class="bg-[#303030]bg-switchbg rounded-full p-1 flex relative items-center shadow-inner mr-2">
                 
-                <div id="active-pill" class="absolute bg-cardbg w-20 h-8 rounded-full transition-all duration-300 z-0"></div>
+                <div id="active-pill" class="absolute bg-[#5d5d5d] config w-20 h-8 rounded-full transition-all duration-300 z-0"></div>
 
-                <a href="#" class="relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">home</a>
-                <a href="#" class="relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">about</a>
-                <a href="#" class="relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">contact</a>
+                <a href="#" class="text-[#ededed] relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">home</a>
+                <a href="#" class="text-[#ededed] relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">about</a>
+                <a href="#" class="text-[#ededed] relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">contact</a>
             </div>
             
         </nav>
