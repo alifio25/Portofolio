@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alifio Eren Atmaja - Portfolio</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkbg: '#3b3b3b', /* Warna background utama yang gelap */
+                        cardbg: '#8a8a8a', /* Warna kotak navbar & about me */
+                        switchbg: '#5a5a5a' /* Warna background menu nav */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-darkbg text-black font-sans antialiased relative min-h-screen">
+
+    <div class="fixed inset-0 z-0 flex items-center justify-center opacity-10 pointer-events-none">
+        <img src="OG LOGO OUTLINE.png" alt="OG LOGO" class="w-full h-full object-contain">
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto p-6 pt-10">
+
+        <nav class="bg-cardbg rounded-full p-2 flex justify-between items-center mb-10 shadow-lg">
+            
+            <div class="flex items-center gap-4 pl-2">
+                <div class="bg-red-300 text-black font-bold text-lg rounded-full w-12 h-12 flex items-center justify-center shadow-inner">
+                    AE
+                </div>
+                <span class="font-semibold tracking-wider text-black">ALIFIO EREN ATMAJA</span>
+            </div>
+
+            <div class="bg-switchbg rounded-full p-1 flex relative items-center shadow-inner mr-2">
+                
+                <div id="active-pill" class="absolute bg-cardbg w-20 h-8 rounded-full transition-all duration-300 z-0"></div>
+
+                <a href="#" class="relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">home</a>
+                <a href="#" class="relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">about</a>
+                <a href="#" class="relative z-10 px-4 py-1 text-center w-20 font-medium cursor-pointer">contact</a>
+            </div>
+            
+        </nav>
+
+        </div>
+
+</body>
+</html>
